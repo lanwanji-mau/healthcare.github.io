@@ -1,0 +1,74 @@
+body{
+    background-color: #6FDFDF ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-border h1{
+    font-weight: normal;
+    align-self: center;
+    margin-left: 40%;
+}
+
+p{
+    margin-left: 40%;
+    
+}
+
+.aha{
+    margin-top:-1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #03C4A1;
+}
+
+a:hover{
+    color:#C1F8CF;
+}
+
+input{
+    background-color:#C1F8CF;
+    font-size: 16px;
+    padding: 5px 135px;
+    font-family: 'Poppins', sans-serif;
+    margin: 6px 0px;
+    border-radius: 9px;
+    outline: none;
+    border: 2px solid #395B64;
+    margin-left: 40%;
+
+}
+
+input::placeholder{
+    overflow:visible !important;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=email],input[type=date]{
+    padding-left: 10px;
+}
+
+input[type=date]{
+    padding-right: 11.2rem;
+}
+
+.btn{
+    background-color:#03C4A1;
+    margin-left:40%;
+    font-family: 'Poppins', sans-serif;
+    width: 350px;
+    height: 40px;
+    font-weight: 900;
+    border-radius: 9px;
+    
+}
+
+.register{
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    background-color:#C1F8CF;
+    color:black;
+    cursor: pointer;
+}
